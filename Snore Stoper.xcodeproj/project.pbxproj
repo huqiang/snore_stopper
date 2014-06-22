@@ -12,6 +12,7 @@
 		5A9A57651956AC7000F6DBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A57631956AC7000F6DBFA /* Main.storyboard */; };
 		5A9A57671956AC7000F6DBFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A57661956AC7000F6DBFA /* Images.xcassets */; };
 		5A9A57731956AC7000F6DBFA /* Snore_StoperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A57721956AC7000F6DBFA /* Snore_StoperTests.swift */; };
+		5A9A577D1956AF8600F6DBFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A577C1956AF8600F6DBFA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 		5A9A576C1956AC7000F6DBFA /* Snore StoperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snore StoperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9A57711956AC7000F6DBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9A57721956AC7000F6DBFA /* Snore_StoperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snore_StoperTests.swift; sourceTree = "<group>"; };
+		5A9A577C1956AF8600F6DBFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5A9A577E1956BA2900F6DBFA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9A577D1956AF8600F6DBFA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +61,7 @@
 		5A9A57511956AC7000F6DBFA = {
 			isa = PBXGroup;
 			children = (
+				5A9A577C1956AF8600F6DBFA /* AVFoundation.framework */,
 				5A9A575C1956AC7000F6DBFA /* Snore Stoper */,
 				5A9A576F1956AC7000F6DBFA /* Snore StoperTests */,
 				5A9A575B1956AC7000F6DBFA /* Products */,
@@ -77,6 +82,7 @@
 			children = (
 				5A9A575F1956AC7000F6DBFA /* AppDelegate.swift */,
 				5A9A57611956AC7000F6DBFA /* ViewController.swift */,
+				5A9A577E1956BA2900F6DBFA /* MyPlayground.playground */,
 				5A9A57631956AC7000F6DBFA /* Main.storyboard */,
 				5A9A57661956AC7000F6DBFA /* Images.xcassets */,
 				5A9A575D1956AC7000F6DBFA /* Supporting Files */,
@@ -158,6 +164,7 @@
 				TargetAttributes = {
 					5A9A57591956AC7000F6DBFA = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = AYZKQBDTDW;
 					};
 					5A9A576B1956AC7000F6DBFA = {
 						CreatedOnToolsVersion = 6.0;
@@ -327,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Snore Stoper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Snore Stoper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
