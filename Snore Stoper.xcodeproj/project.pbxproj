@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9A57601956AC7000F6DBFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A575F1956AC7000F6DBFA /* AppDelegate.swift */; };
+		5A9A57621956AC7000F6DBFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A57611956AC7000F6DBFA /* ViewController.swift */; };
+		5A9A57651956AC7000F6DBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A57631956AC7000F6DBFA /* Main.storyboard */; };
+		5A9A57671956AC7000F6DBFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A57661956AC7000F6DBFA /* Images.xcassets */; };
+		5A9A57731956AC7000F6DBFA /* Snore_StoperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A57721956AC7000F6DBFA /* Snore_StoperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9A576D1956AC7000F6DBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9A57521956AC7000F6DBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9A57591956AC7000F6DBFA;
+			remoteInfo = "Snore Stoper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9A575A1956AC7000F6DBFA /* Snore Stoper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snore Stoper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9A575E1956AC7000F6DBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9A575F1956AC7000F6DBFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A9A57611956AC7000F6DBFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A9A57641956AC7000F6DBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9A57661956AC7000F6DBFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A9A576C1956AC7000F6DBFA /* Snore StoperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snore StoperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9A57711956AC7000F6DBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9A57721956AC7000F6DBFA /* Snore_StoperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snore_StoperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9A57571956AC7000F6DBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9A57691956AC7000F6DBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9A57511956AC7000F6DBFA = {
+			isa = PBXGroup;
+			children = (
+				5A9A575C1956AC7000F6DBFA /* Snore Stoper */,
+				5A9A576F1956AC7000F6DBFA /* Snore StoperTests */,
+				5A9A575B1956AC7000F6DBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9A575B1956AC7000F6DBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A575A1956AC7000F6DBFA /* Snore Stoper.app */,
+				5A9A576C1956AC7000F6DBFA /* Snore StoperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9A575C1956AC7000F6DBFA /* Snore Stoper */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A575F1956AC7000F6DBFA /* AppDelegate.swift */,
+				5A9A57611956AC7000F6DBFA /* ViewController.swift */,
+				5A9A57631956AC7000F6DBFA /* Main.storyboard */,
+				5A9A57661956AC7000F6DBFA /* Images.xcassets */,
+				5A9A575D1956AC7000F6DBFA /* Supporting Files */,
+			);
+			path = "Snore Stoper";
+			sourceTree = "<group>";
+		};
+		5A9A575D1956AC7000F6DBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A575E1956AC7000F6DBFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9A576F1956AC7000F6DBFA /* Snore StoperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A57721956AC7000F6DBFA /* Snore_StoperTests.swift */,
+				5A9A57701956AC7000F6DBFA /* Supporting Files */,
+			);
+			path = "Snore StoperTests";
+			sourceTree = "<group>";
+		};
+		5A9A57701956AC7000F6DBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A57711956AC7000F6DBFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9A57591956AC7000F6DBFA /* Snore Stoper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9A57761956AC7000F6DBFA /* Build configuration list for PBXNativeTarget "Snore Stoper" */;
+			buildPhases = (
+				5A9A57561956AC7000F6DBFA /* Sources */,
+				5A9A57571956AC7000F6DBFA /* Frameworks */,
+				5A9A57581956AC7000F6DBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snore Stoper";
+			productName = "Snore Stoper";
+			productReference = 5A9A575A1956AC7000F6DBFA /* Snore Stoper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9A576B1956AC7000F6DBFA /* Snore StoperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9A57791956AC7000F6DBFA /* Build configuration list for PBXNativeTarget "Snore StoperTests" */;
+			buildPhases = (
+				5A9A57681956AC7000F6DBFA /* Sources */,
+				5A9A57691956AC7000F6DBFA /* Frameworks */,
+				5A9A576A1956AC7000F6DBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9A576E1956AC7000F6DBFA /* PBXTargetDependency */,
+			);
+			name = "Snore StoperTests";
+			productName = "Snore StoperTests";
+			productReference = 5A9A576C1956AC7000F6DBFA /* Snore StoperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9A57521956AC7000F6DBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Hu Qiang";
+				TargetAttributes = {
+					5A9A57591956AC7000F6DBFA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5A9A576B1956AC7000F6DBFA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5A9A57591956AC7000F6DBFA;
+					};
+				};
+			};
+			buildConfigurationList = 5A9A57551956AC7000F6DBFA /* Build configuration list for PBXProject "Snore Stoper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9A57511956AC7000F6DBFA;
+			productRefGroup = 5A9A575B1956AC7000F6DBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9A57591956AC7000F6DBFA /* Snore Stoper */,
+				5A9A576B1956AC7000F6DBFA /* Snore StoperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9A57581956AC7000F6DBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9A57651956AC7000F6DBFA /* Main.storyboard in Resources */,
+				5A9A57671956AC7000F6DBFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9A576A1956AC7000F6DBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9A57561956AC7000F6DBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9A57621956AC7000F6DBFA /* ViewController.swift in Sources */,
+				5A9A57601956AC7000F6DBFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9A57681956AC7000F6DBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9A57731956AC7000F6DBFA /* Snore_StoperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9A576E1956AC7000F6DBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9A57591956AC7000F6DBFA /* Snore Stoper */;
+			targetProxy = 5A9A576D1956AC7000F6DBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9A57631956AC7000F6DBFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A57641956AC7000F6DBFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9A57741956AC7000F6DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9A57751956AC7000F6DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9A57771956AC7000F6DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Snore Stoper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A9A57781956AC7000F6DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Snore Stoper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A9A577A1956AC7000F6DBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snore Stoper.app/Snore Stoper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snore StoperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5A9A577B1956AC7000F6DBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snore Stoper.app/Snore Stoper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snore StoperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9A57551956AC7000F6DBFA /* Build configuration list for PBXProject "Snore Stoper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9A57741956AC7000F6DBFA /* Debug */,
+				5A9A57751956AC7000F6DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9A57761956AC7000F6DBFA /* Build configuration list for PBXNativeTarget "Snore Stoper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9A57771956AC7000F6DBFA /* Debug */,
+				5A9A57781956AC7000F6DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A9A57791956AC7000F6DBFA /* Build configuration list for PBXNativeTarget "Snore StoperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9A577A1956AC7000F6DBFA /* Debug */,
+				5A9A577B1956AC7000F6DBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9A57521956AC7000F6DBFA /* Project object */;
+}
